@@ -1,0 +1,16 @@
+td.upperleft
+{
+	width: 250px;
+}
+
+td.upperright
+{
+	width: 650px;
+}
+
+input.delete
+{
+	float: right;
+	position: relative;
+	top: -20px;
+}

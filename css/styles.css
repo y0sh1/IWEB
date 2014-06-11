@@ -1,0 +1,192 @@
+body.body
+{
+	background-color: #fbfbfb;
+	font-family: Arial,sans-serif;
+	font-size: 100%;
+	color: #1f415a;
+}
+
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+form
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p.headertitel
+{
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p.onderschrift
+{
+	font-size: 0.8em;
+	font-style: italic;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+div.tekst
+{
+	text-align: left;
+}
+
+div.image
+{
+	text-align: center;
+}
+
+div.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1.headertitel
+{
+	font-size: 1.6em;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+table.main
+{
+	border-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+td.header
+{
+	text-align: center;
+	background-color: #dadada;
+	width: 950px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+
+td.nav
+{
+	text-align: center;
+	width: 950px;
+	background-color: #f4f4f4;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+td.upperleft
+{
+	width: 450px;
+	vertical-align: top;
+	background-color: #96beca;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+td.upperright
+{
+	width: 450px;
+	vertical-align: top;
+	background-color: #0e8bb7;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+td.lowerleft
+{
+	width: 450px;
+	vertical-align: top;
+	background-color: #0e8bb7;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+td.lowerright
+{
+	width: 450px;
+	vertical-align: top;
+	background-color: #96beca;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+a
+{
+	color: #bb6bb0;
+}
+
+a.navlink
+{
+	font-family: Arial,sans-serif;
+	font-size: 1.2em;
+	color: #1f415a;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a.navlink:hover
+{
+	text-decoration: underline;
+}
+
+a.navlinkselected
+{
+	font-family: Arial,sans-serif;
+	font-size: 1.2em;
+	color: #bb6bb0;
+	text-decoration: underline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+a.navlinkselected:hover
+{
+	text-decoration: underline;
+}
+
+img.logo
+{
+	border-style: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.image
+{
+	border-style: none;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
