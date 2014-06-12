@@ -16,6 +16,11 @@
 				$content = getContent($tableName, $contentID, $dbLink);
 				writeAfbeelding($content);
 				break;
+            case "placekitten":
+                $tableName = "placekitten";
+                $content = getContent($tableName, $contentID, $dbLink);
+                writePlaceKitten($content);
+                break;
 		}
 	}
 	
@@ -66,5 +71,16 @@
 		}
 		echo '</div>';
 	}
+    function writePlaceKitten($content)
+    {
+        extract($content);
 
+        echo '<div class="image">';
+        if ($titel)
+        {
+            echo '<img class="image" onmouseover="alert(navigator.userAgent)"; src="http://placekitten.com/g/'. $breedte . '/'. $hoogte . '" width="' . $breedte . '" height="' . $hoogte . '" alt="' . $titel . '">';
+            echo '<p class="onderschrift">' . $titel . '</p>';
+        }
+        echo '</div>';
+    }
 ?>

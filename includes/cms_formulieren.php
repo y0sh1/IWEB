@@ -53,6 +53,10 @@ function maakPlaceKittenFormulier($content)
     extract($content);
     ?>
     <tr>
+        <td>Positie in menu: </td>
+        <td><input type="text" size="5" name="nr" value="<?php echo $id; ?>"></td>
+    </tr>
+    <tr>
         <td>Titel: </td>
         <td><input type="text" size="60" name="titel" value="<?php echo $titel; ?>"></td>
     </tr>

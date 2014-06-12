@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="theinternetsftp">
+  <component name="PublishConfigData" autoUpload="Always" serverName="theinternets iweb">
     <serverData>
-      <paths name="theinternetsftp">
+      <paths name="iweb sftp">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/www" local="$PROJECT_DIR$" web="/s1077749/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="theinternets iweb">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/iweb.theinternets.nl/htdocs" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

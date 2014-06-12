@@ -89,11 +89,11 @@
 					mysql_real_escape_string($hoogte));
 				break;
             case 'placekitten' :
-                $titel   = stripslashes($_POST['titel']);
-                $breedte = stripslashes($_POST['breedte']);
-                $hoogte  = stripslashes($_POST['hoogte']);
+                $titel   = mysql_real_escape_string($_POST['titel']);
+                $breedte = mysql_real_escape_string($_POST['breedte']);
+                $hoogte  = mysql_real_escape_string($_POST['hoogte']);
 
-                $query = "INSERT INTO placekitten (titel, height, width) VALUES ($$titel, $$breedte, $$hoogte)";
+                $query = "INSERT INTO placekitten (titel,hoogte,breedte) VALUES ('$titel','$$breedte','$$hoogte')";
                 break;
 		}
 

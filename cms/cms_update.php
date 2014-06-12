@@ -107,7 +107,7 @@
                 $hoogte  = stripslashes($_POST['hoogte']);
 
                 // bouw query voor updaten van de database
-                $query = "UPDATE placekitten SET titel=$$titel, width=$$breedte, heigth=$$hoogte WHERE ;
+                $query = "UPDATE placekitten SET titel='$titel', breedte='$breedte', hoogte='$hoogte' WHERE id='$contentID'" ;
                 break;
 		}
 

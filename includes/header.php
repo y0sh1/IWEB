@@ -6,7 +6,6 @@
 </head>
 
 <body class="body">
-
 <table class="main">
 <tr>
 	<td colspan="2" class="header">

@@ -97,7 +97,7 @@
 	<tr>
 	<td class="upperleft">
 		<h1 class="headertitel">Pagina niet gevonden</h1>
-		<p>Deze pagina kan niet worden weergegeven. <a href="/">Keer terug naar de homepage.</a><p>
+		<p>Deze pagina kan niet worden weergegeven. <a href="/">Keer terug naar de homepage...</a><p>
 	</td>
     <td class="upperright">&nbsp;</td>
 	</tr>
